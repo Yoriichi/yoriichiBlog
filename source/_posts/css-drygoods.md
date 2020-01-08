@@ -466,14 +466,6 @@ button#parent{  /*改掉button默认样式就好了,不需要居中处理*/
 
 ####  4.1 左列定宽,右列自适应 
 
-效果:
-
-
-
-![img](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1129" height="627"></svg>)
-
-
-
 #####  (1)利用float+margin实现 
 
 html代码:
@@ -1365,13 +1357,6 @@ css代码:
 
 #####  5.2.2 圣杯布局方法 
 
-效果图:
-
-
-
-![image.png](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1115" height="732"></svg>)
-
-
 
 html代码:
 
@@ -1439,14 +1424,6 @@ css代码:
 ```
 
 #####  5.2.3 使用Grid实现 
-
-效果图:
-
-
-
-![image.png](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1051" height="731"></svg>)
-
-
 
 html代码:
 
@@ -1975,14 +1952,6 @@ css代码:
 ```
 
 ####  6.2 九宫格布局 
-
-效果图:
-
-
-
-![image.png](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1240" height="636"></svg>)
-
-
 
 #####  (1)使用table实现 
 
