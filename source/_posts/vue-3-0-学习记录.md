@@ -1,7 +1,8 @@
 ---
-title: vue 3.0 学习记录
+title: vue 3.0 响应式系统学习记录
 date: 2020-01-07 09:55:48
-tags:
+tags: 
+cover: img/lalafei.jpeg
 ---
 #### 一、响应式系统实现过程: 
 ![RUNOOB 图标](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37b2e0534?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
