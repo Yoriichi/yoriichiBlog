@@ -14,7 +14,6 @@ theme: diaspora
 
 # 默认音乐
 mp3: 
-  - http://106.14.74.107/comm-music/oneMoreTime.mp3
   - http://106.14.74.107/comm-music/theLonGirl.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
