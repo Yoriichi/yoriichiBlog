@@ -2,7 +2,7 @@
 title: css布局方式汇总
 date: 2020-01-08 09:33:39
 tags:
-cover: img/ffBg.jpg
+cover: img/leishen.jpg
 ---
 ### 一、水平居中 
 
@@ -934,7 +934,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136d1676e57?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-1.jpg)
 
 
 
@@ -942,7 +942,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136d19c5afc?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-2.jpg)
 
 
 
@@ -1059,7 +1059,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136d1ea53c5?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-3.jpg)
 
 
 
@@ -1285,7 +1285,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136d1cc24f8?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-4.jpg)
 
 
 
@@ -1485,7 +1485,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136f71b55c0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-5.jpg)
 
 
 
@@ -1635,7 +1635,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136f835236f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-6.jpg)
 
 
 
@@ -1688,7 +1688,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136ffc5df62?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-7.jpg)
 
 
 
@@ -1739,7 +1739,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a137025dbc4c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-8.jpg)
 
 
 
@@ -1784,7 +1784,7 @@ css代码:
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a137120f99b7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-9.jpg)
 
 
 
@@ -2170,7 +2170,7 @@ div[class^="column-sm-"]{
 
 
 
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a13716f2d8c3?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![image.png](http://106.14.74.107/img/css-10.jpg)
 
 
 

@@ -2,10 +2,10 @@
 title: vue 3.0 响应式系统学习记录
 date: 2020-01-07 09:55:48
 tags: 
-cover: img/lalafei.jpeg
+cover: img/fflog.jpg
 ---
 #### 一、响应式系统实现过程: 
-![RUNOOB 图标](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37b2e0534?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](http://106.14.74.107/img/vue3.0-1.jpg)
 #### 二、基本例子
 Vue 3.0 的响应式系统是独立的模块，可以完全脱离 Vue 而使用，所以我们在 clone 了源码下来以后，可以直接在 `packages/reactivity` 模块下调试。
 1. 在项目根目录运行 `yarn dev reactivity`，然后进入 `packages/reactivity` 目录找到产出的 `dist/reactivity.global.js` 文件。
@@ -32,7 +32,7 @@ effect(fn)
 在上述的例子中，我们使用 `reactive()` 函数把 `origin` 对象转化成了 Proxy 对象 `state`；使用 `effect()` 函数把 `fn()` 作为响应式回调。当 `state.count` 发生变化时，便触发了 `fn()`。接下来我们将以这个例子结合上文的流程图，来讲解这套响应式系统是怎么运行的。
 
 #### 三、初始化阶段
-![vueInt](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37b098adf?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](http://106.14.74.107/img/vue3.0-2.jpg)
 在初始化阶段，主要做了两件事。
 
 1. 把 `origin` 对象转化成响应式的 Proxy 对象 `state`。
@@ -91,7 +91,7 @@ export function run(effect, fn, args) {
 至此，初始化阶段已经完成。接下来就是整个系统最关键的一步——依赖收集阶段。
 
 #### 四、依赖收集阶段
-![vueDepen](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37c860761?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](http://106.14.74.107/img/vue3.0-3.jpg)
 这个阶段的触发时机，就是在 effect 被立即执行，其内部的 `fn()` 触发了 Proxy 对象的 getter 的时候。简单来说，只要执行到类似 `state.count` 的语句，就会触发 state 的 getter。
 
 依赖收集阶段最重要的目的，就是建立一份”依赖收集表“，也就是图示的”targetMap"。targetMap 是一个 WeakMap，其 key 值是~~当前的 Proxy 对象 `state`~~代理前的对象`origin`，而 value 则是该对象所对应的 depsMap。
@@ -122,7 +122,7 @@ const effect3 = effect(() => {
 
 那么这里的 targetMap 应该为这个样子：
 
-![image](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37aa0f4c6?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](http://106.14.74.107/img/vue3.0-4.jpg)
 
 
 
@@ -157,12 +157,12 @@ export function track (target, operationType, key) {
 
 回顾上一章节的例子，我们得到了一个 `{ count: 0, age: 18 }` 的 Proxy，并构造了三个 effect。在控制台上看看效果：
 
-![image](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37dadf75d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](http://106.14.74.107/img/vue3.0-5.jpg)
 
 
 
 效果符合预期，那么它是怎么实现的呢？首先来看看这个阶段的原理图：
-![vue 3 响应式系统原理](https://user-gold-cdn.xitu.io/2019/10/9/16dafca37b2e0534?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](http://106.14.74.107/img/vue3.0-6.jpg)
 当修改对象的某个属性值的时候，会触发对应的 setter。
 
 setter 里面的 trigger() 函数会从依赖收集表里找到当前属性对应的各个 dep，然后把它们推入到 `effects` 和 `computedEffects（计算属性）` 队列中，最后通过 `scheduleRun()` 挨个执行里面的 effect。
