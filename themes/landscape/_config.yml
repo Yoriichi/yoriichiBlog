@@ -7,15 +7,15 @@ menu:
 TOC: false
 
 # 是否自动播放音乐
-autoplay: false
+autoplay: true
 
 # 主题设置
 theme: diaspora
 
 # 默认音乐
 mp3: 
-  - http://link.hhtjim.com/163/5146554.mp3
-  - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
+  - http://106.14.74.107/comm-music/oneMoreTime.mp3
+  - http://106.14.74.107/comm-music/theLonGirl.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: /img/ffbackground.jpg
