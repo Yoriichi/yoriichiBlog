@@ -250,6 +250,14 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   font-weight: bold;
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
+.post img {
+  cursor: pointer;
+  transition: all 0.6s;
+  overflow: hidden;
+}
+.post img:hover {
+  transform: scale(1.2);
+}
   
 /* Responsive style */
 @media screen and (max-width:1200px) {

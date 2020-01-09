@@ -711,11 +711,6 @@ css代码:
 效果:
 
 
-
-![image.png](https://user-gold-cdn.xitu.io/2018/3/9/1620a136cf625c79?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
 #####  (1)使用float+margin实现 
 
 html代码:
