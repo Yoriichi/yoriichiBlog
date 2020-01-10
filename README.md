@@ -1,2 +1,3 @@
-# 缘一 博客
-## 记录日常学习知识点及学习心得
+## Yoriichi blog
+### Record daily learning knowledge points and learning experience.
+
