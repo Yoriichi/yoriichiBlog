@@ -37,7 +37,7 @@ body.mu .image-logo {background-color:black;}
 #post0 h2 + p {color:#fff;font-size:14px;margin-top:30px;}
 .post {margin:100px auto 0;width:1200px;position:relative;}
 .post > a {display:inline-block;width:680px;height:383px;overflow:hidden;position:relative;z-index:3;}
-.else {position:absolute;background:#fff;text-align:left;top:20px;height:340px;width:498px;border:1px solid #eaeaea;}
+.else {position:absolute;background:#fff;text-align:left;top:20px;height:340px;width:539px;border:1px solid #eaeaea;}
 .post:nth-child(odd) {text-align:left;}
 .post:nth-child(even) {text-align:right;}
 .post:nth-child(odd) .else {left:660px;}
