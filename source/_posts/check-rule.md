@@ -2,7 +2,7 @@
 title: 常用rules校验规则
 date: 2020-01-09 14:23:41
 tags:
-cover: img/leishen.jpg
+cover: img/article_bg_03.jpg
 ---
 ### 1、是否合法IP地址
 
