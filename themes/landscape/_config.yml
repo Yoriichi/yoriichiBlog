@@ -17,10 +17,10 @@ mp3:
   - http://106.14.74.107/comm-music/theLonGirl.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
-welcome_cover: /img/article_bg_02.jpg
+welcome_cover: /img/article_bg_02.webp
 
 # 默认文章封面图
-cover: /img/bg_ff.jpg
+cover: /img/bg_ff.webp
 
 # 是否关闭默认滚动条
 scrollbar: true

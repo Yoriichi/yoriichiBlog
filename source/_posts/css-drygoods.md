@@ -2,7 +2,7 @@
 title: css布局方式汇总
 date: 2020-01-08 09:33:39
 tags:
-cover: img/ffbackground.jpg
+cover: img/ffbackground.webp
 ---
 ### 一、水平居中 
 
