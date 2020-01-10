@@ -246,7 +246,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   display:inline-block;
   background-color: 0.5s ease-in-out;
   top: 125px;
-  left: 10px;
+  left: 5%;
   font-weight: bold;
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
