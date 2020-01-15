@@ -2,7 +2,8 @@
 title: css收藏动画汇总
 date: 2020-01-13 14:05:28
 tags:
-cover: img/article_bg_01.webp
+cover: /images/article_bg_01.webp
+excerpt: 各种玄幻的CSS花活
 ---
 #### 利用不同的`delay`实现交错动画
 

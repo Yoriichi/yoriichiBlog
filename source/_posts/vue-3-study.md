@@ -2,7 +2,7 @@
 title: vue 3.0 响应式系统学习记录
 date: 2020-01-07 09:55:48
 tags: 
-cover: img/fflog.webp
+cover: /images/fflog.webp
 ---
 #### 一、响应式系统实现过程: 
 ![](http://106.14.74.107/comm-img/vue3.0-1.jpg)
