@@ -112,3 +112,7 @@ live2d:
     height: 300
   mobile:
     show: false  #是否在手机进行显示
+
+#aplayer
+aplayer:
+  volume: 0.3
