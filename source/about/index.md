@@ -2,7 +2,7 @@
 title: 关于
 date: 2020-01-08 13:14:14
 permalink: /about
-cover: /images/IMG_8606.jpg
+cover: /images/IMG_8606.webp
 ---
 {% aplayer "Confession" "coldrain" "https://www.yoriichi.cn/comm-music/Confession.mp3" "/images/coldrain.jpeg" "autoplay" %}
 
