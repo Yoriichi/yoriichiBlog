@@ -47,7 +47,6 @@ export function reactive(target) {
   const observed = new Proxy(target, handler)
   return observed
 }
-复制代码
 ```
 
 > 完整代码在 [reactive.js](https://github.com/jrainlau/tiny-reactive/blob/master/src/reactive.js)。这里的 `handler` 就是改造 getter/setter 的关键，我们放到后文讲解。
@@ -117,7 +116,6 @@ const effect2 = effect(() => {
 const effect3 = effect(() => {
   console.log('effect3: ' + state.count, state.age)
 })
-复制代码
 ```
 
 那么这里的 targetMap 应该为这个样子：
@@ -147,8 +145,6 @@ export function track (target, operationType, key) {
     }
   }
 }
-
-复制代码
 ```
 
 弄明白依赖收集表 targetMap 是非常重要的，因为这是整个响应式系统核心中的核心。

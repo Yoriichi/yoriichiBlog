@@ -14,3 +14,6 @@ cover: /images/IMG_8606.webp
 ## 一句话
 不管浪活着，还是浪死了，都是水的梦想。
 ## 一张图
+<img width=200 src="/images/one.png" >
+
+<!-- ![](/images/one.png) -->
