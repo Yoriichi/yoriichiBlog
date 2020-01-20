@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate && rm -rf /Users/louis/Documents/myblog/web-release/* && cp -rf ./public/* /Users/louis/Documents/myblog/web-release/. && git add . && git commit -m 'go' && git push",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
